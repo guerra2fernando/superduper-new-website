@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Particles from './particles'
-import Illustration from '@/public/images/glow-bottom.png'
+import Illustration from '@/public/images/enterpriseGrid.svg'
 
 export default function Hero() {
   return (

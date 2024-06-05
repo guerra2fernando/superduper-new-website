@@ -33,7 +33,6 @@ export default function Home() {
       <IntegrationsSec />
       <TestimonialsCarousel />
       <MediaTabs />
-      <Testimonials />
       <Cta />
     </>
   )
