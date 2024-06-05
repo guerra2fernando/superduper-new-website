@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Stellar',
+  title: 'Home - SuperDuper',
   description: 'Page description',
 }
 
@@ -33,7 +33,6 @@ export default function Home() {
       <IntegrationsSec />
       <TestimonialsCarousel />
       <MediaTabs />
-      <Pricing />
       <Testimonials />
       <Cta />
     </>

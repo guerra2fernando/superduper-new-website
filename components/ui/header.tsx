@@ -21,11 +21,11 @@ export default function Header() {
               <li className="relative group">
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/solutions"
+                  href="#"
                 >
                   Solutions
                 </Link>
-                <ul className="absolute top-full left-0 bg-slate-900 rounded shadow-lg mt-2 opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-300 ease-in-out">
+                <ul className="absolute top-full left-0 bg-slate-900 rounded shadow-lg pt-2 opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-300 ease-in-out">
                   <li>
                     <Link className="block px-4 py-2 text-sm text-slate-300 hover:text-white transition duration-150 ease-in-out" href="/solutions/key-value">Key Value</Link>
                   </li>
