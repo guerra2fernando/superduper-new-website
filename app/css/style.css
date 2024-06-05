@@ -1,0 +1,262 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/theme.css';
+
+@import 'tailwindcss/utilities';
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+
+.logo-row-parent {
+    height: 15.75rem;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+
+.database-logos,
+.integration-logos,
+.integrations1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.database-logos2
+{
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
+
+.integration-logos {
+  width: 57.5rem;
+  position: relative;
+  flex-wrap: wrap;
+  gap: var(--br-5xl);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xs-2) 0 var(--padding-2xs);
+
+  :nth-child(8) {
+    visibility: hidden;
+  }
+}
+
+.database-logos {
+  width: 83rem;
+  position: relative;
+  flex-wrap: wrap;
+  gap: var(--br-5xl);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xs-2) 0 var(--padding-2xs);
+
+}
+
+.database-logos2 {
+  width: 50rem;
+  position: absolute;
+  flex-wrap: wrap;
+  top: 13rem;
+  gap: var(--br-5xl);
+  flex-direction: row;
+  left: 60rem;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xs-2) 0 var(--padding-2xs);
+
+}
+
+.integrations1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  padding: var(--padding-61xl) 0;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.integration-grid {
+  position: absolute;
+  opacity: 50%;
+  top: 46px;
+  filter: opacity(0.4);
+}
+
+
+.logo-row,
+.logo-row1 {
+  top: 0.313rem;
+  width: 11rem;
+}
+
+.logo-row {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--text-icon-primary);
+  box-shadow: 0 4px 24px rgb(122 40 217 / 29%);
+  height: 6.813rem;
+}
+
+.logo-row1,
+.logo-row3 {
+    top: 0.313rem;
+    width: 11rem;
+    position: relative;
+    animation: slideToRight 12s linear infinite; /* Consistent with the previous animation */
+}
+
+.logo-row,
+.logo-row1 {
+  top: 0.313rem;
+  width: 11rem;
+}
+
+.logo-row-1 {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--text-icon-primary);
+  box-shadow: 0 4px 24px rgb(122 40 217 / 29%);
+  height: 6.813rem;
+}
+
+.logo-row1-1,
+.logo-row3-1 {
+    top: 0.313rem;
+    width: 9rem;
+    position: relative;
+    animation: slideToRight2 12s linear infinite; /* Consistent with the previous animation */
+}
+
+@keyframes slideToRight {
+  0%, 100% {
+    right: 0rem;
+  }
+  50% {
+    right: 5rem;
+  }
+}
+
+@keyframes slideToRight2 {
+  0%, 100% {
+    right: 0rem;
+  }
+  50% {
+    right: 4rem;
+  }
+}
+
+
+
+.logo-row1,
+.logo-row2,
+.logo-row3,
+.logo-row4,
+.logo-row5 {
+  /* position: absolute; */
+  border-radius: var(--br-xs);
+    background-color: var(--back-block);
+    color: var(--base-white);
+    box-shadow: 0 4px 24px rgb(122 40 217 / 29%);
+    height: 10em;
+    border: 1px solid #2b2b2b;
+    padding: 0px 23px 23px 23px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo-row2 {
+  top: 0.313rem;
+  width: 11rem;
+  position: relative;
+  animation: slideToLeft 12s linear infinite; /* Adjust duration and other properties as needed */
+}
+
+
+
+.logo-row1-1,
+.logo-row2-1,
+.logo-row3-1,
+.logo-row4-1,
+.logo-row5-1 {
+/* position: absolute; */
+border-radius: var(--br-xs);
+background-color: var(--back-block);
+color: var(--base-white);
+box-shadow: 0 4px 24px rgb(122 40 217 / 29%);
+height: 8.4rem;
+border: 1px solid #2b2b2b;
+}
+
+.logo-row2-1 {
+top: 0.313rem;
+width: 9rem;
+position: relative;
+animation: slideToLeft2 12s linear infinite; /* Adjust duration and other properties as needed */
+}
+
+@keyframes slideToLeft {
+0%, 100% {
+  left: 2rem;
+}
+50% {
+  left: 11rem;
+}
+}
+@keyframes slideToLeft2 {
+0%, 100% {
+  left: -2rem;
+}
+50% {
+  left: 5rem;
+}
+}
+
+
+.logo-row4,
+.logo-row5 {
+  left: 14.469rem;
+  width: 12.875rem;
+}
+
+.logo-row5 {
+  border: 0;
+  outline: 0;
+  left: 28.894rem;
+}
+
+.logo-row4-1,
+.logo-row5-1 {
+  left: 14.469rem;
+  width: 12.875rem;
+}
+
+.logo-row5-1 {
+  border: 0;
+  outline: 0;
+  left: 28.894rem;
+}
+
+.text-database {
+  line-height: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
