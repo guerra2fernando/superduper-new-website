@@ -35,10 +35,20 @@ export default function IntegrationsSection() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">Integrations & Add-ons</div>
-            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Make Stellar uniquely yours</h1>
+            <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">Enterprise</div>
+            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Your AI stack on your existing infrastructure</h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-lg text-slate-400">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-lg text-slate-400">Superduper’s state-of-the art deployment system enables enterprises to unlock the value of their data with the latest AI while and comprehensive managed services, Superduper Enterprise ensures high performance, reliability, and security - enabling </p>
+            </div>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-10" data-aos="fade-down" data-aos-delay="400">
+              <div>
+                <a className="btn text-slate-200 hover:text-white bg-slate-900 bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out" href="#0">
+                  <svg className="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" />
+                  </svg>
+                  <span>Get in touch</span>
+                </a>
+              </div>
             </div>
           </div>
 
