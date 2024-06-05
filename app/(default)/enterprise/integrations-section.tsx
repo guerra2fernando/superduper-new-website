@@ -52,8 +52,6 @@ export default function IntegrationsSection() {
             </div>
           </div>
 
-          <IntegrationsCarousel />
-
         </div>
       </div>
     </section>

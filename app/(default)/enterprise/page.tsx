@@ -5,12 +5,13 @@ export const metadata = {
 
 import IntegrationsSection from './integrations-section'
 import IntegrationsList from './integrations-list'
+import MediaTabs2 from '@/components/mediatab2'
 
 export default function Integrations() {
   return (
     <>
       <IntegrationsSection />
-      <IntegrationsList />
+      <MediaTabs2 />
     </>
   )
 }
